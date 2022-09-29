@@ -103,7 +103,7 @@ $(function(){
         $(function(){
             var maxNum = 3,
         rdm = Math.floor(Math.random()*(maxNum))+1;
-        $("#random").attr("src","../img/jyanken" + rdm + ".png");
+        $("#random").attr("src","jyanken" + rdm + ".png");
         });
        setTimeout(function(){
         $("#random").fadeIn();
