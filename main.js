@@ -45,19 +45,19 @@ $(function(){
     
     $(".click1").click(function(){
         setTimeout(function(){
-            window.location.href = ;
+            window.location.href = "https://nukunuku0311.github.io/company/";
         },1000);
     });
     
     $(".click2").click(function(){
         setTimeout(function(){
-            window.location.href = ;
+            window.location.href = "https://nukunuku0311.github.io/sneaker/";
         },1000);
     });
     
     $(".click3").click(function(){
         setTimeout(function(){
-            window.location.href = ;
+            window.location.href = "https://nukunuku0311.github.io/splatoon/";
         },1000);
     });
 
