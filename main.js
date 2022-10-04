@@ -47,23 +47,21 @@ $(function(){
   event.preventDefault();
   var link = $(this).attr('href');
   setTimeout(function() {
-    location.href= link;
+    location.href= "https://nukunuku0311.github.io/company/";
   }, 2000);
 });
     
     $(".click2").on("click", function() {
   event.preventDefault();
-  var link = $(this).attr('href');
   setTimeout(function() {
-    location.href= link;
+    location.href= "https://nukunuku0311.github.io/sneaker/";
   }, 2000);
 });
     
    $(".click3").on("click", function() {
   event.preventDefault();
-  var link = $(this).attr('href');
   setTimeout(function() {
-    location.href= link;
+    location.href= "https://nukunuku0311.github.io/splatoon/";
   }, 2000);
 });
 
