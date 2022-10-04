@@ -42,6 +42,12 @@ $(function(){
         $(".work").fadeToggle(500);
         
     });
+    
+    $(".hover").click(function(){
+        setTimeout(function(){
+            
+        },1000);
+    });
 
     // チュートリアルホバー
 
