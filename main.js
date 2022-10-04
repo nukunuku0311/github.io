@@ -30,7 +30,7 @@ $(function(){
     
     });
     
-    $(".container").click(function(){
+    $(".over").click(function(){
         $("#pic1").css("opacity","0")
         $("#pic2").css("opacity","0")
         $("#pic3").css("opacity","0")
