@@ -43,9 +43,21 @@ $(function(){
         
     });
     
-    $(".hover").click(function(){
+    $(".click1").click(function(){
         setTimeout(function(){
-            
+            window.location.href = ;
+        },1000);
+    });
+    
+    $(".click2").click(function(){
+        setTimeout(function(){
+            window.location.href = ;
+        },1000);
+    });
+    
+    $(".click3").click(function(){
+        setTimeout(function(){
+            window.location.href = ;
         },1000);
     });
 
