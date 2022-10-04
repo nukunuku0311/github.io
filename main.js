@@ -43,11 +43,13 @@ $(function(){
         
     });
     
-    $(".click1").click(function(){
-        setTimeout(function(){
-            window.location.href = "https://nukunuku0311.github.io/company/";
-        },1000);
-    });
+    $(".").on("click", function() {
+  event.preventDefault();
+  var link = $(this).attr('href');
+  setTimeout(function() {
+    location.href= link;
+  }, 2000);
+});
     
     $(".click2").click(function(){
         setTimeout(function(){
