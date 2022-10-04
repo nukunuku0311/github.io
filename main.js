@@ -43,7 +43,7 @@ $(function(){
         
     });
     
-    $(".").on("click", function() {
+    $(".click1").on("click", function() {
   event.preventDefault();
   var link = $(this).attr('href');
   setTimeout(function() {
