@@ -134,9 +134,15 @@ $(function(){
        },3000);
     });
     
-    $(window).onpageshow = function(event) {
-	if (event.persisted) {
-		 window.location.reload();
-	}
+    $(function() {
+  history.pushState(null, null, null);
+
+  $(window).on("popstate", function(){
+	$("#pic1").css("opacity","0")
+	$("#pic2").css("opacity","0")
+  	$("#pic3").css("opacity","0")
+        $(".all-con").css("opacity","1")
+  });
+}); 
 };
 });
