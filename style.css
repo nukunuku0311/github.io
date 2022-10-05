@@ -568,6 +568,11 @@ cursor: pointer;
   margin-top: 20px;
 }
 
+.over {
+    height: 45%;
+    width: 100%;
+}
+
 @media screen and (max-width:600px) {
   .tutorial {
     width: 100%;
