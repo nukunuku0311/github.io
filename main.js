@@ -77,7 +77,7 @@ $(function(){
         },function(){
             $(".target-1").css("opacity","0")
         });
-    }
+    
 
     $(".slct-2").hover(function(){
         $(".target-2").css("opacity","1")
