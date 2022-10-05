@@ -133,16 +133,6 @@ $(function(){
         $("#random").fadeIn();
        },3000);
     });
-    
-    $(function() {
-  history.pushState(null, null, null);
+   
 
-  $(window).on("popstate", function(){
-	$("#pic1").css("opacity","0")
-	$("#pic2").css("opacity","0")
-  	$("#pic3").css("opacity","0")
-        $(".all-con").css("opacity","1")
-  });
-}); 
-};
 });
