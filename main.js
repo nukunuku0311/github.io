@@ -33,11 +33,7 @@ $(function(){
     
     });
     
-    $(".cover").click(function(){
-        $("#pic1").css("opacity","0");
-        $("#pic2").css("opacity","0");
-        $("#pic3").css("opacity","0");
-    });
+    
    
         
     // workクリック
@@ -58,21 +54,22 @@ $(function(){
   var link = $(this).attr('href');
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/company/";
-  }, 2000);
+      $("#pic1").css("opacity","0");
+  }, 1000);
 });
     
     $(".click2").on("click", function() {
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/sneaker/";
-  }, 2000);
+  }, 1000);
 });
     
    $(".click3").on("click", function() {
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/splatoon/";
-  }, 2000);
+  }, 1000);
 });
 
     // チュートリアルホバー
