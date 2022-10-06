@@ -107,7 +107,7 @@ $(function(){
     });
 
     // rpg
-    
+    if(window.matchMedia("(max-width: 600px)").matches){
         $(".btn-y").click(function(){
         $(".rpg").css("opacity","1");
         $(".all-con").animate({
@@ -119,6 +119,18 @@ $(function(){
         $(".jyanken").fadeIn(1000);
         $("#random").css("display","none")
         $(".work").fadeOut(500);
+        } else {
+         $(".btn-y").click(function(){
+        $(".rpg").css("opacity","1");
+        $(".all-con").animate({
+            "marginTop":"300px"
+        },250);
+        $(".btn-x").prop("disabled",true);
+        $(".btn-a").prop("disabled",true);
+        $(".btn-b").prop("disabled",true);
+        $(".jyanken").fadeIn(1000);
+        $("#random").css("display","none")
+        $(".work").fadeOut(500);  
     });
 
     $(".remove").click(function(){
