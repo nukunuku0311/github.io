@@ -107,8 +107,8 @@ $(function(){
     });
 
     // rpg
-
-    $(".btn-y").click(function(){
+    
+        $(".btn-y").click(function(){
         $(".rpg").css("opacity","1");
         $(".all-con").animate({
             "marginTop":"150px"
