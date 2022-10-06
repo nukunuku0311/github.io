@@ -30,6 +30,11 @@ $(function(){
     
     });
     
+    $(".cover").click(function(){
+        $("#pic1").css("opacity","0");
+        $("#pic2").css("opacity","0");
+        $("#pic3").css("opacity","0");
+    });
    
         
     // workクリック
