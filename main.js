@@ -1,6 +1,6 @@
 $(function(){
     
-    $(window).bind("unload",function(){});
+    
     
     // work画像
     $(".h-pic1").hover(function(){
@@ -62,6 +62,7 @@ $(function(){
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/sneaker/";
+      $("#pic2").css("opacity","0");
   }, 1000);
 });
     
@@ -69,6 +70,7 @@ $(function(){
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/splatoon/";
+      $("#pic3").css("opacity","0");
   }, 1000);
 });
 
