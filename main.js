@@ -55,8 +55,10 @@ $(function(){
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/company/";
       $("#pic1").css("opacity","0");
-      $(".all-con").css("opacity","1");
-  }, 1000);
+  }, 1500);
+        setTimeout(function(){
+            $(".all-con").css("opacity","1");
+        },1600);
 });
     
     $(".click2").on("click", function() {
@@ -65,7 +67,10 @@ $(function(){
     location.href= "https://nukunuku0311.github.io/sneaker/";
       $("#pic2").css("opacity","0");
       $(".all-con").css("opacity","1");
-  }, 1000);
+  }, 1500);
+        setTimeout(function(){
+            $(".all-con").css("opacity","1");
+        },1600);
 });
     
    $(".click3").on("click", function() {
@@ -74,7 +79,10 @@ $(function(){
     location.href= "https://nukunuku0311.github.io/splatoon/";
       $("#pic3").css("opacity","0");
       $(".all-con").css("opacity","1");
-  }, 1000);
+  }, 1500);
+       setTimeout(function(){
+            $(".all-con").css("opacity","1");
+        },1600);
 });
 
     // チュートリアルホバー
