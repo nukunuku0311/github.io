@@ -1,4 +1,7 @@
 $(function(){
+    
+    $(window).bind("unload",function(){});
+    
     // work画像
     $(".h-pic1").hover(function(){
         $("#pic1").css("opacity","1")
