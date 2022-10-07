@@ -58,7 +58,7 @@ $(function(){
   }, 1000);
    setTimeout(function(){
    $(".all-con").css("opacity","1");
-   },1200);
+   },1500);
 });
     
     $(".click2").on("click", function() {
@@ -69,7 +69,7 @@ $(function(){
   }, 1000);
         setTimeout(function(){
    $(".all-con").css("opacity","1");
-   },1200);
+   },1500);
         
 });
     
@@ -81,7 +81,7 @@ $(function(){
   }, 1000);
        setTimeout(function(){
    $(".all-con").css("opacity","1");
-   },1200);
+   },1500);
       
 });
 
