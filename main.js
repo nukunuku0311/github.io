@@ -54,10 +54,10 @@ $(function(){
   var link = $(this).attr('href');
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/company/";
-      $("#pic1").css("opacity","0");
   }, 1000);
    setTimeout(function(){
    $(".all-con").css("opacity","1");
+   $("#pic1").css("opacity","0");
    },1500);
 });
     
@@ -65,10 +65,10 @@ $(function(){
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/sneaker/";
-      $("#pic2").css("opacity","0");
   }, 1000);
         setTimeout(function(){
    $(".all-con").css("opacity","1");
+   $("#pic2").css("opacity","0");
    },1500);
         
 });
@@ -77,10 +77,10 @@ $(function(){
   event.preventDefault();
   setTimeout(function() {
     location.href= "https://nukunuku0311.github.io/splatoon/";
-      $("#pic3").css("opacity","0");
   }, 1000);
        setTimeout(function(){
    $(".all-con").css("opacity","1");
+   $("#pic3").css("opacity","0");
    },1500);
       
 });
