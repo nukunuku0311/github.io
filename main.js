@@ -119,7 +119,7 @@ $(function(){
         $(".btn-y").click(function(){
         $(".rpg").css("opacity","1");
         $(".all-con").animate({
-            "marginTop":"150px"
+            "marginTop":"200px"
         },250);
         $(".btn-x").prop("disabled",true);
         $(".btn-a").prop("disabled",true);
@@ -127,19 +127,21 @@ $(function(){
         $(".jyanken").fadeIn(1000);
         $("#random").css("display","none")
         $(".work").fadeOut(500);
-        } else {
-         $(".btn-y").click(function(){
-        $(".rpg").css("opacity","1");
-        $(".all-con").animate({
-            "marginTop":"300px"
-        },250);
-        $(".btn-x").prop("disabled",true);
-        $(".btn-a").prop("disabled",true);
-        $(".btn-b").prop("disabled",true);
-        $(".jyanken").fadeIn(1000);
-        $("#random").css("display","none")
-        $(".work").fadeOut(500);  
     });
+    }else {
+        $(".btn-y").click(function(){
+            $(".rpg").css("opacity","1");
+            $(".all-con").animate({
+                "marginTop":"300px"
+            },250);
+            $(".btn-x").prop("disabled",true);
+            $(".btn-a").prop("disabled",true);
+            $(".btn-b").prop("disabled",true);
+            $(".jyanken").fadeIn(1000);
+            $("#random").css("display","none")
+            $(".work").fadeOut(500);
+        });
+    }
 
     $(".remove").click(function(){
         $(".rpg").css("opacity","0");
