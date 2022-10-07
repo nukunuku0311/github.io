@@ -58,7 +58,7 @@ $(function(){
   }, 1000);
         setTimeout(function(){
             $(".all-con").css("opacity","1");
-        },1100);
+        },1200);
 });
     
     $(".click2").on("click", function() {
@@ -70,7 +70,7 @@ $(function(){
   }, 1000);
         setTimeout(function(){
             $(".all-con").css("opacity","1");
-        },1100);
+        },1200);
 });
     
    $(".click3").on("click", function() {
@@ -82,7 +82,7 @@ $(function(){
   }, 1000);
        setTimeout(function(){
             $(".all-con").css("opacity","1");
-        },1100);
+        },1200);
 });
 
     // チュートリアルホバー
