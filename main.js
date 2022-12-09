@@ -100,6 +100,7 @@ $(function(){
      if (window.matchMedia("(max-width: 600px)").matches) {
         $(".target-2").on("click",function(){
             $("target-1").css("opacity","0");
+        }
         } else {
           $("target-1").css("opacity","1");
         });
