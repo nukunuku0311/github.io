@@ -45,7 +45,7 @@ $(function(){
     });
 
     $(".btn-x").click(function(){
-        $(".work").fadeToggle(500);
+        $(".work").fadeToggle();
         
     });
     
