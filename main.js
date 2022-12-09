@@ -132,7 +132,7 @@ $(function(){
         $(".btn-y").click(function(){
             $(".rpg").css("opacity","1");
             $(".all-con").animate({
-                "marginTop":"300px"
+                "marginTop":"200px"
             },250);
             $(".btn-x").prop("disabled",true);
             $(".btn-a").prop("disabled",true);
