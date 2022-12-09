@@ -98,18 +98,19 @@ $(function(){
     }
     
      if (window.matchMedia("(max-width: 600px)").matches) {
-        $(".target-2").on("click",function(){
-            $("target-1").css("opacity","0");
-        }
-        } else {
-          $("target-1").css("opacity","1");
+        $(".slct-2").on("click",function(){
+            $(".target-1").css("opacity","0");
         });
+        } else {
+          $(".target-1").css("opacity","1");
+        }
+
     $(".slct-2").hover(function(){
         $(".target-2").css("opacity","1");
     },function(){
         $(".target-2").css("opacity","0");
     });
-}
+
   
 
     $(".slct-1").click(function(){
@@ -119,7 +120,8 @@ $(function(){
 
     $(".btn-b").click(function(){
         $(".tutorial").fadeIn(500);
-        $(".all-con").css("opacity","0")
+        $(".all-con").css("opacity","0");
+        $(".target-1").css("opacity","1");
     });
 
     // rpg
