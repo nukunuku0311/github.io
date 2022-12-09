@@ -122,6 +122,8 @@ $(function(){
         $(".tutorial").fadeIn(500);
         $(".all-con").css("opacity","0");
         $(".target-1").css("opacity","1");
+        $(".work").fadeOut(500);
+    });
     });
 
     // rpg
