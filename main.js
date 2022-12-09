@@ -97,7 +97,8 @@ $(function(){
         });
     }
     
-
+     if (window.matchMedia("(max-width: 600px)").matches) {
+        $(".target-2").on
     $(".slct-2").hover(function(){
         $(".target-2").css("opacity","1")
     },function(){
