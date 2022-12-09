@@ -38,7 +38,8 @@ $(function(){
         
     // workクリック
     $(".btn-a").click(function () {
-        $("#A-menu").addClass("active")
+        $("#A-menu").addClass("active");
+        $(".work").fadeOut(500);
     });
     $(".stop").click(function(event){
         $("#A-menu").removeClass("active")
