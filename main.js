@@ -91,19 +91,25 @@ $(function(){
         $(".target-1").css("opacity","1");
     } else {
         $(".slct-1").hover(function(){
-            $(".target-1").css("opacity","1")
+            $(".target-1").css("opacity","1");
         },function(){
-            $(".target-1").css("opacity","0")
+            $(".target-1").css("opacity","0");
         });
     }
     
      if (window.matchMedia("(max-width: 600px)").matches) {
-        $(".target-2").on
+        $(".target-2").on("click",function(){
+            $("target-1").css("opacity","0");
+        }else {
+          $("target-1").css("opacity","1");
+        });
     $(".slct-2").hover(function(){
-        $(".target-2").css("opacity","1")
+        $(".target-2").css("opacity","1");
     },function(){
-        $(".target-2").css("opacity","0")
+        $(".target-2").css("opacity","0");
     });
+}
+  
 
     $(".slct-1").click(function(){
         $(".tutorial").fadeOut(500);
