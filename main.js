@@ -125,7 +125,6 @@ $(function(){
         $(".target-1").css("opacity","1");
         $(".work").fadeOut(500);
     });
-    });
 
     // rpg
     if(window.matchMedia("(max-width: 600px)").matches){
